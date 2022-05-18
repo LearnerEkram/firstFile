@@ -1,0 +1,140 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: none;
+}
+
+#header{
+    background-color: #fff;
+}
+
+
+.container{
+
+   padding: 4px;
+}
+.header{
+    background:#4550e6;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+
+img{
+    width: 250px; 
+    height: 100px;
+    margin-left: 25px;
+}
+.left{
+    width: 35%;
+}
+.right{
+    width: 65%;
+    margin-left: 45px;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin: auto;
+}
+.group{
+    flex-basis:200px;
+    margin: 10px 4px 3px 3px;
+    padding: 4px;
+ 
+}
+input.input-control{
+    width: 100%;
+    height: 23px;
+    border: none;
+    margin: 4px 0px;
+}
+.input-control[type="button"]{
+    margin-top: 6px;
+    width: 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+/* header body section style start */
+
+.body{
+
+}
+.body-img{
+float: left;
+width: 35%;
+}
+.body-img p{
+    margin: 3px; 
+    color: blue
+}
+.body-img img{
+    width: 300px; 
+    height: 300px;
+
+}
+.body form{
+    float: left; 
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+}
+.body form h2,p,div{
+margin-left: 16px;
+margin-top: 4px;
+}
+form  h2{
+    font-size: 50px;
+    color: black;
+}
+.body form p{
+    font-weight: 200;
+}
+.body form .name input{
+    width: 250px ;
+    height: 30px;
+    margin-top: 4px;
+}
+.body form .email input{
+    width: 500px; 
+    height: 30px;
+    margin-top: 4px;
+}
+.body form .re-enter-email input{
+    width: 500px; 
+    height: 30px;
+    margin-top: 4px;
+}
+.body form .pass input{
+    width: 500px; 
+    height: 30px;
+    margin-top: 4px;
+}
+.body form .date input{
+    width: 250px; 
+    height: 30px;
+    margin-top: 4px;
+}
+.body form .gender input{
+    width: 15px; 
+    height: 10px;
+    margin-top: 5px;
+}
+.body form .text-footer{
+    width: 400px;
+    margin-top: 5px;
+}
+.body form .form-btn input{
+    width: 250px; 
+    height: 30px;
+    margin-top: 5px;
+    background-color: green;
+    color: #fff;
+    border: none;
+}
+/* header body section style end */
